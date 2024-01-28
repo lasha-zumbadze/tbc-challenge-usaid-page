@@ -27,7 +27,9 @@ The website is fully responsive, works well on various screen sizes. For smaller
 Implementation Details
 -------------------------
 •	Single HTML File: The entire page is presented within a single HTML file.
+
 •	Modular CSS and JavaScript Files: Styles and scripts are organized into multiple files based on functionality and content.
+
 •	Comments: There are notes in the code to help understand what each part does, explaining the purpose and function of specific sections and scripts.
 
 
