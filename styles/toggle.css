@@ -1,0 +1,46 @@
+.toggle {
+  position: relative;
+  width: 7rem;
+  height: 7rem;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100000;
+}
+
+.toggle span {
+  position: absolute;
+  width: 4rem;
+  height: 0.4rem;
+  background-color: var(--font-four);
+  border-radius: 4px;
+  transition: all 0.5s;
+}
+
+.toggle span:nth-child(1) {
+  transform: translateY(-1.5rem);
+  width: 2rem;
+  left: 1.5rem;
+}
+
+.toggle span:nth-child(2) {
+  transform: translateY(1.5rem);
+  width: 2rem;
+  right: 1.5rem;
+}
+
+.toggle.active span:nth-child(1) {
+  transform: translate(0.2rem, -0.6rem) rotate(-135deg);
+  background-color: var(--background-four);
+}
+
+.toggle.active span:nth-child(2) {
+  transform: translate(-0.3rem, 0.8rem) rotate(-135deg);
+  background-color: var(--background-four);
+}
+
+.toggle.active span:nth-child(3) {
+  transform: rotate(-45deg);
+  background-color: var(--background-four);
+}

@@ -1,0 +1,389 @@
+@media (max-width: 1000px) {
+  /* TERMS */
+  .terms-conditions-container {
+    width: 60%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    width: 70rem;
+  }
+
+  /* QA */
+  .QA-general-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    width: 70rem;
+  }
+
+  .QA-header {
+    margin-bottom: 0;
+  }
+
+  .all-QA-link {
+    align-self: center;
+    order: 1;
+    margin-top: 2.5rem;
+  }
+
+  /* PARTNERS */
+  .partners-general-container {
+    width: 70rem;
+  }
+
+  .partners-general-container .subtitle {
+    font-size: 2.6rem;
+  }
+
+  .partners-container {
+    height: 50rem;
+    margin-top: 2rem;
+  }
+
+  .partners {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+  .partner {
+    min-width: 35rem;
+    margin-top: -1.8rem;
+  }
+
+  .partners .spectre {
+    min-width: 25rem;
+  }
+
+  .partners .tineti {
+    min-width: 40rem;
+  }
+
+  .dots {
+    height: 2rem;
+  }
+
+  /* COURSES */
+  .courses-container {
+    width: 70rem;
+  }
+
+  .courses-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* HEADER */
+  .header {
+    width: 70rem;
+    gap: 1rem;
+  }
+
+  .info-piece-container {
+    width: 70rem;
+  }
+
+  .info-piece p {
+    font-size: 2.2rem;
+  }
+
+  /* NAVBAR */
+  .navbar-container {
+    width: 70rem;
+  }
+}
+
+@media (max-width: 740px) {
+  /* TERMS */
+  .terms-conditions-container {
+    width: 70%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    width: 55rem;
+  }
+
+  /* QA */
+  .QA-general-container {
+    width: 55rem;
+  }
+
+  /* PARTNERS */
+  .partners-general-container {
+    width: 55rem;
+  }
+
+  .partners-container {
+    height: 45rem;
+    margin-top: 5rem;
+  }
+
+  .partner {
+    min-width: 30rem;
+  }
+
+  .partners .tineti {
+    min-width: 35rem;
+  }
+
+  /* COURSES */
+  .courses-container {
+    width: 55rem;
+  }
+
+  .courses-cards {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .card {
+    width: 40rem;
+  }
+
+  .card > img {
+    height: 20rem;
+  }
+
+  /* HEADER */
+  .header {
+    width: 55rem;
+  }
+
+  .header > div {
+    flex-direction: column;
+  }
+
+  .info-piece-container {
+    width: 55rem;
+  }
+
+  /* NAVBAR */
+  .navbar-container {
+    width: 55rem;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .toggle {
+    display: flex;
+  }
+}
+
+@media (max-width: 600px) {
+  /* TERMS */
+  .terms-conditions-container {
+    width: 80%;
+  }
+
+  /* FOOTER */
+  .footer-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1.5rem;
+    width: 40rem;
+    font-size: 1.6rem;
+  }
+
+  footer .btn {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    justify-self: start;
+    align-self: center;
+    margin: 1.3rem 0;
+  }
+
+  .social-media {
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+  }
+
+  .terms-and-conditions {
+    grid-row: 3 / -1;
+  }
+
+  .terms-and-conditions > p {
+    order: 1;
+  }
+
+  .terms-and-conditions > div {
+    order: 2;
+  }
+
+  .footer-tbc-logo {
+    width: 15rem;
+  }
+
+  .fb-logo,
+  .youtube-logo {
+    width: 4rem;
+  }
+
+  /* QA */
+  /* *************************** */
+  .QA-general-container {
+    min-width: 40rem;
+  }
+
+  /* PARTNERS */
+  .partners-general-container {
+    width: 40rem;
+  }
+
+  .partners-general-container .subtitle {
+    font-size: 2.4rem;
+  }
+
+  .partners-container {
+    height: 40rem;
+  }
+
+  .dots {
+    height: 1rem;
+  }
+
+  /* COURSES */
+  .courses-container {
+    width: 40rem;
+    gap: 4rem;
+  }
+
+  .courses-container .subtitle {
+    font-size: 2.8rem;
+  }
+
+  .courses-cards {
+    grid-template-columns: 1fr;
+  }
+
+  /* HEADER */
+  .header {
+    width: 40rem;
+  }
+
+  .header > div {
+    flex-direction: column;
+  }
+
+  .info-piece-container {
+    width: 40rem;
+  }
+
+  /* NAVBAR */
+  .navbar-container {
+    width: 40rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  /* TERMS */
+  .terms-conditions-container {
+    width: 90%;
+  }
+
+  /* VERTICAL MENU */
+  .vertical-navbar {
+    width: 80%;
+  }
+
+  .vertical-navbar ul {
+    font-size: 1.8rem;
+    right: 5rem;
+  }
+
+  /* COURSES */
+  .card {
+    width: 35rem;
+  }
+
+  .card .title {
+    padding-bottom: 0;
+    height: fit-content;
+  }
+
+  /* PARTNERS */
+  .scroll {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  /* FOOTER */
+  .footer-container {
+    width: 35rem;
+  }
+
+  footer .btn {
+    width: 14rem;
+  }
+
+  /* QA */
+  .QA-general-container {
+    min-width: 35rem;
+  }
+
+  .all-QA-link {
+    font-size: 2.3rem;
+  }
+
+  /* PARTNERS */
+  .partners-general-container {
+    width: 35rem;
+  }
+
+  .partners-general-container .subtitle {
+    font-size: 2.2rem;
+  }
+
+  .partner {
+    min-width: 25rem;
+  }
+
+  .partners .tineti {
+    min-width: 30rem;
+  }
+
+  .dots {
+    gap: 2rem;
+  }
+
+  /* COURSES */
+  .courses-container {
+    width: 35rem;
+  }
+
+  .card {
+    width: 35rem;
+  }
+
+  /* HEADER */
+  .header {
+    width: 35rem;
+    gap: 1rem;
+  }
+
+  .header p {
+    font-size: 3rem;
+  }
+
+  .header > div {
+    font-size: 3rem;
+  }
+
+  .info-piece-container {
+    width: 35rem;
+  }
+
+  .info-piece p {
+    font-size: 1.8rem;
+  }
+
+  /* NAVBAR */
+  .navbar-container {
+    width: 35rem;
+  }
+}

@@ -1,0 +1,77 @@
+.courses-section {
+  background-color: var(--background-one);
+  color: var(--font-one);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+  padding: 4rem 0 6rem;
+  width: 98rem;
+}
+
+.courses-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 4rem;
+  row-gap: 2.5rem;
+}
+
+/* CARD */
+.card {
+  border-radius: 7px;
+  overflow: hidden;
+  border: 1px solid #898989;
+  /* background-color: #141414; */
+}
+
+.card > img {
+  height: 15rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card .title {
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding: 3.5rem 2.5rem;
+  height: 17rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  line-height: 1.5;
+}
+
+.card .title h3 {
+  letter-spacing: 0.4px;
+  line-height: 1.6;
+  font-weight: 400;
+}
+
+.card .details {
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 0.5rem;
+  height: 10rem;
+}
+
+.card .details img {
+  height: 1.9rem;
+}
+
+.card .details a:any-link {
+  font-size: 1.7rem;
+  color: var(--blue-one);
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.card .details a:hover {
+  color: var(--blue-two);
+}

@@ -1,0 +1,93 @@
+footer {
+  background-color: var(--background-two);
+  max-width: 100%;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  row-gap: 1.5rem;
+  max-width: 98rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5rem 0 6rem;
+  font-size: 1.4rem;
+}
+
+.terms-and-conditions {
+  grid-row: 2 / -1;
+  grid-column: 1 / 3;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  color: var(--font-two);
+}
+
+.copyright-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.2rem;
+}
+
+.copyright-icon {
+  font-size: 1rem;
+}
+
+.terms {
+  transition: all 0.3s;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.terms:hover {
+  color: #a0a0a0;
+}
+
+.social-media {
+  grid-column: 3 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.footer-tbc-logo {
+  width: 12rem;
+}
+
+.fb-logo,
+.youtube-logo {
+  width: 4rem;
+}
+
+footer .btn {
+  grid-column: 3/-1;
+  width: 16rem;
+  justify-self: end;
+  align-self: end;
+  font-size: 1.8rem;
+  padding: 0.3rem 0;
+  border-radius: 8px;
+  background-color: var(--blue-one);
+  border: none;
+  transition: all 0.3s;
+}
+
+footer .btn a:any-link {
+  text-decoration: none;
+  color: var(--font-two);
+  display: block;
+  padding: 0.5rem 0;
+  transition: all 0.3s;
+  text-shadow: 0 0 1px #bfbfbf;
+}
+
+footer .btn:hover {
+  background-color: var(--background-three);
+}
+
+footer .btn:hover a {
+  color: var(--font-three);
+  text-shadow: none;
+}

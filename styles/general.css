@@ -1,0 +1,64 @@
+:root {
+  --blue-one: rgb(0, 171, 240);
+  --blue-two: rgb(0, 136, 203);
+
+  /* FONTS */
+  --font-one: #dbdbdb;
+  --font-two: #fff;
+  --font-three: #2c2c2c;
+  --font-four: #f1f1f1;
+  --font-five: #e2e2e2;
+
+  /* BACKGROUNDS */
+  --background-one: #141414;
+  --background-two: rgb(25, 28, 29);
+  --background-three: #c4c4c4;
+  --background-four: #dbdbdb;
+  --background-five: #2d2d2d;
+  --backgorund-six: #8d8d8d;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("https://static.wixstatic.com/ufonts/643d94_dd28b3957391427eb54de1c9eff7cfb1/woff2/file.woff2");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "MyFont";
+}
+
+.subtitle {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--font-five);
+}
+
+.active-link {
+  color: var(--blue-one);
+}
+
+.navbar-container,
+.header {
+  margin: 0 2rem;
+}
+
+.overlay {
+  width: 100vw;
+  height: 100vh;
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgb(0, 0, 0, 0.6);
+  display: none;
+}

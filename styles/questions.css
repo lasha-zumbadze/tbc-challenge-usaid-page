@@ -1,0 +1,80 @@
+.QA-section {
+  background-color: var(--background-one);
+  color: var(--font-four);
+}
+
+.QA-general-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  row-gap: 1rem;
+  align-items: center;
+  max-width: 60%;
+  width: 98rem;
+  margin: 0 auto;
+  padding: 9rem 0 8rem;
+}
+
+.QA-header {
+  padding: 1rem 0;
+}
+
+.all-QA-link {
+  color: var(--blue-one);
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 600;
+  transition: all 0.4s;
+  grid-column: 2/-1;
+  grid-row: 1 / 2;
+  justify-self: end;
+}
+
+.all-QA-link:hover {
+  color: #aeaeae;
+}
+
+.question-blocks {
+  grid-column: 1 / -1;
+}
+
+.question-block {
+  border-bottom: 1px solid #3c3c3c;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 2.7rem 0;
+}
+
+.question p {
+  font-size: 1.8rem;
+}
+
+.down-arrow {
+  width: 1.5rem;
+  margin-left: 3rem;
+}
+
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.answer p {
+  margin-bottom: 4rem;
+  font-size: 1.6rem;
+  padding-right: 2rem;
+  line-height: 1.8;
+}
+
+.answer .stages {
+  padding-left: 2rem;
+}
+
+.active {
+  max-height: 1000rem;
+}
